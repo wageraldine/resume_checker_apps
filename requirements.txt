@@ -1,4 +1,5 @@
 Flask
+python-dateutil
 poppler-utils
 pytesseract
 gunicorn
