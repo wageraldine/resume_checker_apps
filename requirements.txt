@@ -1,5 +1,4 @@
 Flask
-poppler-utils
 pytesseract
 gunicorn
 pillow
