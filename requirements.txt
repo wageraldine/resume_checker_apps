@@ -1,0 +1,10 @@
+Flask
+pillow
+image
+pdf2image
+scikit-learn
+pickle
+re
+nltk
+spacy
+werkzeug
