@@ -4,7 +4,7 @@ image
 pdf2image
 scikit-learn
 pickle5
-re
+regex
 nltk
 spacy
 werkzeug
