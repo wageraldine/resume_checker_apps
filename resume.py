@@ -36,7 +36,7 @@ pytesseract.pytesseract.tesseract_cmd = r'static\pkg\Tesseract-OCR\tesseract.exe
     
 #we are loading the model using pickle
 def convert_pdf_to_text(path):
-    pages = convert_from_path(pdf_path=path, dpi=500, poppler_path=r'static\pkg\poppler-0.68.0\bin')
+    pages = convert_from_path(pdf_path=path, dpi=500)
     num_pages = 0
     extractedInformation = ''
     #Saving pages in jpeg format
