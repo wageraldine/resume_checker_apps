@@ -32,7 +32,6 @@ import spacy
 spacy.cli.download("en_core_web_sm")
 nlp = spacy.load('en_core_web_sm')
 
-pytesseract.pytesseract.tesseract_cmd = r'static\pkg\Tesseract-OCR\tesseract.exe'
     
 #we are loading the model using pickle
 def convert_pdf_to_text(path):
