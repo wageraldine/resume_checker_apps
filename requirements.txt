@@ -1,5 +1,4 @@
 Flask
-en-core-web-sm
 python-dateutil
 poppler-utils
 pytesseract
