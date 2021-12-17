@@ -31,7 +31,7 @@ nlp = spacy.load('en_core_web_sm')
     
 #we are loading the model using pickle
 def convert_pdf_to_text(path):
-    pages = convert_from_path(pdf_path=path, dpi=150)
+    pages = convert_from_path(pdf_path=path, dpi=300)
     num_pages = 0
     extractedInformation = ''
     #Saving pages in jpeg format
