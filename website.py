@@ -3,8 +3,7 @@ from flask import Flask, render_template, request
 import os
 from resume import resume_classification, similar_check
 from werkzeug.utils import secure_filename
-import spacy
-spacy.cli.download('en_core_web_sm')
+
 
 app = Flask(__name__)
 app.config["DEBUG"] = False
