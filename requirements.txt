@@ -7,7 +7,7 @@ gunicorn
 pillow
 image
 pdf2image
-scikit-learn=1.0.1
+scikit-learn==1.0.1
 pickle5
 regex
 nltk
