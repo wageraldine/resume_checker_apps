@@ -50,9 +50,11 @@ def upload_file():
         final_score = str(final_score)
         
         results = []
-        answer = "<div class='col text-center'>Your kind of resume is "+result+" with suitable score : "+final_score+"%</div>"
+        answer = "<div class='col text-center'>Your kind of resume is "+result+"</div>"
         results.append(answer)
-    
+        answer = "<div class='col text-center'>The match between your CV and the job vacancy is : "+final_score+"%</div>"
+        results.append(answer)
+        
         return render_template('index.html', len=len(results), results=results)    
 
 # Create a running list of result
