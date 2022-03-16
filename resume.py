@@ -73,9 +73,8 @@ def resume_classification(path):
     
     return text, result, score
 
-def similar_check(img_resume, doc2):
-    image_path = (img_resume)
-    doc1 = pytesseract.image_to_string(Image.open(image_path))
+def similar_check(vacancy, doc2):
+    doc1 = vacancy
    
     stop_words = set(stopwords.words("english"))
     
